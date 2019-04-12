@@ -9,7 +9,8 @@ Gem::Specification.new do |s|
   s.summary   = %q{svg_data_plotter_gem is for generating svg graphs}
   s.metadata    = { "source_code_uri" => "https://github.com/Rhiana/svg_data_plotter_gem" }
   s.files      = [
-    "lib/svg_data_plotter_gem.rb"
+    "lib/svg_data_plotter_gem.rb",
+    "lib/svg_data_plotter/circle.rb"
   ]
   s.require_paths = ["lib"]
 end
