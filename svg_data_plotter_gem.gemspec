@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name      = %q{svg_data_plotter_gem}
-  s.version   = "0.0.2"
+  s.version   = "0.0.3"
   s.licenses  = ["MIT"]
   s.date      = %q{2019-04-05}
   s.authors   = ["Rhiana Heath"]

@@ -1,5 +1,7 @@
 module SvgDataPlotterGem
   class Circle
+    attr_reader :score, :total, :size
+
     def initialize(options)
       validation options, [:score, :total, :size]
 
@@ -9,11 +11,11 @@ module SvgDataPlotterGem
     end
 
     def percentage
-      (@score / @total.to_f) * 100
+      (score / total.to_f) * 100
     end
 
     def center
-      @size / 2.0
+      size / 2.0
     end
 
     def radius
@@ -25,7 +27,7 @@ module SvgDataPlotterGem
     end
 
     def percentage_adj
-      (@score / @total.to_f) * circumference
+      (score / total.to_f) * circumference
     end
 
     def radians(degrees)
