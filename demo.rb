@@ -9,6 +9,16 @@ circle = SvgDataPlotterGem::Circle.new({
   size: @size,
 })
 
+gauge = SvgDataPlotterGem::Gauge.new({
+  score: @score,
+  total: @total,
+  size: @size,
+})
+
 puts circle.percentage
 puts circle.circumference
 puts circle.score
+
+puts gauge.percentage
+puts gauge.semi_circle
+puts gauge.score
